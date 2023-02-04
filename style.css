@@ -1,0 +1,131 @@
+body{
+background-color:#3b1413 ;
+margin: 0px;
+}
+
+
+.image{
+    background: #000000 url(./attachment/1.1.jpeg) repeat-x;
+    background-position-x: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-clip: content-box;
+    background-attachment: fixed;
+}
+.cover{
+    background-image: linear-gradient(to left, #ffffff3c 0%, #f9f9fa 100%);
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Ibarra Real Nova', serif;
+    
+}
+h1{
+    font-size: 50px;
+    margin-bottom: 0;
+    text-shadow: 1px 1px 2px white, 0 0 1em white;
+    font-style: italic;
+    color: #3b1413;
+}
+h3{
+    font-size: 25px;
+    margin: 30px;
+    text-align: center;
+    color: #3b1413;
+
+}
+.quizQuestion{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    padding: 10px;
+    font-family: 'Ibarra Real Nova', serif;
+    color: #240c0b;
+
+}
+label{
+    margin: 10px;
+    font-size: 22px;
+}
+span{
+    font-size: 20px;
+}
+.submit{
+    display: flex;
+    justify-content: center;
+    
+}
+#btn{
+    padding: 15px;
+    margin: 15px;
+    width: 20%;
+    font-family: 'Ibarra Real Nova', serif;
+    cursor: pointer;
+    font-size: 22px;
+    text-shadow: 1px 1px 2px white, 0 0 1em white;
+    background: white;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 2px 8px 11px 4px rgba(45, 26, 26, 0.76);
+    color: #3b1413;
+}
+#btn:hover{
+    background-color: #3b1413;
+    color: #ffffff;
+    text-shadow: 1px 1px 2px rgb(0, 0, 0), 0 0 1em white;
+    box-shadow: 2px 8px 11px 4px rgba(255, 255, 255, 0.76);
+}
+a{
+    cursor: pointer;
+    font-size: 18px;
+    color: #3b1413;
+}
+
+#play{
+    margin-top: 50px;
+    border: none;
+    background: none;
+}
+.score{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#par{
+    font-family: 'Ibarra Real Nova', serif;
+    margin: 10px;
+    font-size: 22px;
+    background-color: #ffffff;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+#pauseButton{
+    display: none;
+}
+
+
+
+footer{
+    display: flex;
+    justify-content: center;
+    font-family: 'Ibarra Real Nova', serif;
+    background-color: #ffffff;
+}
+
+@media all and (max-width:800px){
+    h1{
+        font-size: 30px;
+        text-align: center;
+    }
+    h3{
+        font-size: 22px;
+    }
+    #btn{
+        width: 100%;
+    }
+}
